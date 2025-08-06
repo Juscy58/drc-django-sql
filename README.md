@@ -17,3 +17,20 @@ A practical implementation of **Domain Relational Calculus (DRC)** using Python,
 1. Clone the repo:
    ```bash
    git clone https://github.com/yourusername/drc-django-sql.git 
+
+
+How to Use
+Run migrations:
+
+bash
+python manage.py makemigrations
+python manage.py migrate
+Start the dev server:
+
+bash
+python manage.py runserver
+Access:
+
+Admin: http://localhost:8000/admin
+
+DRC Queries: http://localhost:8000/drc-queries
